@@ -9,6 +9,8 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
+:q!
+:q
 
 # Search String History (newest to oldest):
 
@@ -21,14 +23,32 @@
 # Registers:
 
 # File marks:
-'0  2  18  ~/dummy1
+'0  1  16  ~/dummy1
 '1  1  15  ~/dummy3
 '2  1  15  ~/dummy2
 '3  1  16  ~/dummy1
 
 # Jumplist (newest first):
+-'  1  16  ~/dummy1
+-'  1  15  ~/dummy3
+-'  1  15  ~/dummy2
+-'  1  15  ~/dummy2
+-'  1  15  ~/dummy3
+-'  1  15  ~/dummy2
+-'  1  15  ~/dummy2
+-'  1  15  ~/dummy3
+-'  1  15  ~/dummy2
+-'  1  15  ~/dummy2
+-'  1  15  ~/dummy3
+-'  1  15  ~/dummy2
+-'  1  15  ~/dummy2
+-'  1  15  ~/dummy3
+-'  1  15  ~/dummy2
+-'  1  15  ~/dummy2
+-'  1  15  ~/dummy3
+-'  1  15  ~/dummy2
+-'  1  15  ~/dummy2
 -'  2  18  ~/dummy1
--'  1  0  ~/dummy1
 -'  1  15  ~/dummy3
 -'  1  15  ~/dummy2
 -'  1  15  ~/dummy2
@@ -39,11 +59,15 @@
 # History of marks within files (newest to oldest):
 
 > ~/dummy1
-	"	2	18
-	^	2	19
-	.	2	18
+	"	1	16
+	^	1	17
+	.	1	16
 	+	1	17
-	+	2	18
+	+	1	36
+	+	1	37
+	+	1	0
+	+	2	20
+	+	1	16
 
 > ~/dummy3
 	"	1	15
